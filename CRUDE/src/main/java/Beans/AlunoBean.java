@@ -23,9 +23,6 @@ public class AlunoBean implements Serializable {
 
 	protected Collection<Aluno> entidades;
 
-	public AlunoBean() {
-	}
-	
 	@PostConstruct
 	public void init() {
 		entidade = newEntidade();
